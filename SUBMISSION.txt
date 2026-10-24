@@ -1,0 +1,8 @@
+Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady
+Published 24 October 2026
+https://dev.to/yansong_li_b682e6380d7a21/pausedock-let-a-local-model-keep-your-place-while-you-rest-1mkn
+
+The platform displayed the Week 3 submission banner and required challenge tags. This is publication evidence, not a judging result.
+
+63-second public demo:
+https://github.com/C12isme945/pausedock/releases/download/v0.1.0/PauseDock_demo.mp4
