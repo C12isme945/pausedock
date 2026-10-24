@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-24",
+  "surface": "Actual Chrome browser UI",
+  "input": "Synthetic garden notes",
+  "real_local_model_result": true,
+  "latest_observed_elapsed_seconds": 4.74,
+  "category_correction_observed": true,
+  "choose_alternative_return_step_observed": true,
+  "save_observed": true,
+  "clear_session_observed": true,
+  "reopen_saved_card_observed": true,
+  "reopened_note_and_restart_reference_preserved": true,
+  "download_button_clicked": true,
+  "downloaded_file_not_independently_observed": true,
+  "download_observation_limit": "Browser download event was not exposed; internal browser download-management page was unavailable to the automation tool. No claim that file arrival was independently verified.",
+  "demo": "Captioned sequence of actual browser screenshots, edited for length; no real-time recording claim."
+}
