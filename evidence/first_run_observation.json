@@ -1,0 +1,11 @@
+{
+  "observed_date": "2026-10-24",
+  "source": "Actual browser UI after the first garden sample request",
+  "model": "qwen2.5:7b",
+  "elapsed_seconds_displayed": 4.92,
+  "labels": {"N1":"done","N2":"context","N3":"waiting","N4":"waiting","N5":"done","N6":"next"},
+  "restart_id": "N6",
+  "known_misclassification": "N3 described an unfinished action, but was categorised as waiting.",
+  "response": "Made the waiting-vs-unfinished instruction more explicit and retained manual correction in the UI. The original result is not hidden by later evaluation.",
+  "first_model_loading_probe": {"elapsed_seconds":146.44,"output_tokens":7,"scope":"Separate one-note neutral synthetic classification probe before application testing."}
+}

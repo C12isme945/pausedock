@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PauseDock — a softer place to stop</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header><a class="brand" href="/" aria-label="PauseDock home"><span class="brandmark" aria-hidden="true">Ⅱ</span>PauseDock</a><span class="local"><i></i>On this device</span></header>
+<main>
+<section class="intro"><div class="eyebrow">A SMALL RITUAL FOR SWITCHING OFF</div><h1>Put the work down.<br><em>Keep your place.</em></h1><p>Leave your scattered thoughts here. Get one clear place to begin when you come back.</p></section>
+<div class="workspace">
+<section class="input-panel" aria-labelledby="notes-title"><div class="panel-heading"><span class="step">01</span><h2 id="notes-title">Empty your pockets</h2><button class="text-button" id="example">Try a sample</button></div>
+<label for="title">What are you pausing?</label><input id="title" maxlength="80" placeholder="A project, an idea, a very long afternoon…" value="Balcony garden plan">
+<label for="notes">Your scratch notes <span>One thought per line · 2–20 notes</span></label>
+<textarea id="notes" maxlength="6000" rows="9" spellcheck="false" placeholder="What is finished? What needs a small next step? What are you waiting for?"></textarea>
+<div class="input-footer"><span id="count">0 notes</span><span>Notes stay on your device</span></div>
+<button class="primary" id="park">Make my return card <span aria-hidden="true">↗</span></button>
+<div class="run-status" id="status" role="status" aria-live="polite">Nothing is saved unless you choose to save it.</div>
+<p class="privacy">Uses your local open-weight model. PauseDock sends notes only to Ollama on this computer. No cloud account or API key.</p>
+</section>
+<section class="output-panel" aria-labelledby="return-title"><div class="panel-heading"><span class="step">02</span><h2 id="return-title">A softer landing</h2></div>
+<div id="empty" class="empty"><div class="dock-art" aria-hidden="true"><span></span><span></span><span></span></div><h3>Your place will be right here.</h3><p>A small next step, the things already done,<br>and what can wait.</p><div class="tiny-label">LESS REMEMBERING. MORE REST.</div></div>
+<article id="card" hidden><div class="card-kicker">WHEN YOU RETURN</div><h3 id="card-title"></h3><div class="restart"><span class="restart-label">Begin with this</span><p id="restart-text"></p><span class="source-chip" id="restart-source"></span></div><div id="groups"></div><p class="review-note">AI chooses the categories. Every note below is your original wording. Move a note if the category feels wrong.</p><div class="card-actions"><button class="secondary" id="download">Download card</button><button class="text-button" id="save">Save on this browser</button></div><div class="run-detail" id="run-detail"></div></article>
+</section>
+</div>
+<section class="saved-section" id="saved-section" hidden><div><h2>Places you kept</h2><p>Saved only in this browser. Download a card to keep it elsewhere.</p></div><div id="saved-list"></div></section>
+<footer><span>A pause is part of the work.</span><button class="text-button" id="clear">Clear this session</button></footer>
+</main></body></html>

@@ -1,0 +1,1 @@
+{"name":"pausedock","version":"1.0.0","private":true,"description":"Local open-weight AI makes an evidence-linked return card from scratch notes.","scripts":{"start":"python server.py","test":"python -m unittest discover -s tests -v"},"license":"MIT"}

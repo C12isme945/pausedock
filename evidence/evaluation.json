@@ -1,0 +1,198 @@
+{
+  "created_utc": "2026-10-24T11:08:05.801481+00:00",
+  "scope": "16 hand-authored synthetic notes. Garden example informed prompt refinement; cases are not an independent test set. Labels are editorial judgments.",
+  "results": [
+    {
+      "case": "garden_development_example",
+      "status": "SUCCESS",
+      "elapsed_seconds": 5.15,
+      "restart_id": "N3",
+      "run": {
+        "model": "qwen2.5:7b",
+        "elapsed_seconds": 5.15,
+        "output_tokens": 103,
+        "local_endpoint": "http://127.0.0.1:11434/api/generate",
+        "storage": "Not stored by PauseDock server"
+      },
+      "rows": [
+        {
+          "id": "N1",
+          "input": "Finished comparing the two watering schedules.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N2",
+          "input": "The weekend plan uses the smaller pot.",
+          "expected_editor_label": "context",
+          "model_label": "context",
+          "keyword_baseline": "context",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N3",
+          "input": "Still need to check whether the balcony gets four hours of sun.",
+          "expected_editor_label": "next",
+          "model_label": "next",
+          "keyword_baseline": "next",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N4",
+          "input": "Waiting for the soil mix to arrive on Tuesday.",
+          "expected_editor_label": "waiting",
+          "model_label": "waiting",
+          "keyword_baseline": "waiting",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N5",
+          "input": "The seed tray measurements are already written down.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N6",
+          "input": "Next: sketch where the three pots will fit.",
+          "expected_editor_label": "next",
+          "model_label": "next",
+          "keyword_baseline": "next",
+          "model_agrees": true,
+          "baseline_agrees": true
+        }
+      ],
+      "wording_preserved": true
+    },
+    {
+      "case": "negation_and_dependencies",
+      "status": "SUCCESS",
+      "elapsed_seconds": 4.89,
+      "restart_id": "N2",
+      "run": {
+        "model": "qwen2.5:7b",
+        "elapsed_seconds": 4.89,
+        "output_tokens": 103,
+        "local_endpoint": "http://127.0.0.1:11434/api/generate",
+        "storage": "Not stored by PauseDock server"
+      },
+      "rows": [
+        {
+          "id": "N1",
+          "input": "The invitation draft is done.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N2",
+          "input": "Not done: check the spelling on the place cards.",
+          "expected_editor_label": "next",
+          "model_label": "next",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": false
+        },
+        {
+          "id": "N3",
+          "input": "Cannot finalise the head count until the guests reply.",
+          "expected_editor_label": "waiting",
+          "model_label": "waiting",
+          "keyword_baseline": "context",
+          "model_agrees": true,
+          "baseline_agrees": false
+        },
+        {
+          "id": "N4",
+          "input": "We chose blue envelopes for this version.",
+          "expected_editor_label": "context",
+          "model_label": "context",
+          "keyword_baseline": "context",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N5",
+          "input": "Need to compare the two stamp prices.",
+          "expected_editor_label": "next",
+          "model_label": "next",
+          "keyword_baseline": "next",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N6",
+          "input": "Already printed the sample invitation.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": true
+        }
+      ],
+      "wording_preserved": true
+    },
+    {
+      "case": "no_invented_work",
+      "status": "SUCCESS",
+      "elapsed_seconds": 3.07,
+      "restart_id": null,
+      "run": {
+        "model": "qwen2.5:7b",
+        "elapsed_seconds": 3.07,
+        "output_tokens": 63,
+        "local_endpoint": "http://127.0.0.1:11434/api/generate",
+        "storage": "Not stored by PauseDock server"
+      },
+      "rows": [
+        {
+          "id": "N1",
+          "input": "Finished assembling all four gift boxes.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "done",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N2",
+          "input": "The blue ribbon is the one we used.",
+          "expected_editor_label": "context",
+          "model_label": "context",
+          "keyword_baseline": "context",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N3",
+          "input": "Waiting for the courier to collect the boxes tomorrow.",
+          "expected_editor_label": "waiting",
+          "model_label": "waiting",
+          "keyword_baseline": "waiting",
+          "model_agrees": true,
+          "baseline_agrees": true
+        },
+        {
+          "id": "N4",
+          "input": "The address labels have all been checked.",
+          "expected_editor_label": "done",
+          "model_label": "done",
+          "keyword_baseline": "context",
+          "model_agrees": true,
+          "baseline_agrees": false
+        }
+      ],
+      "wording_preserved": true
+    }
+  ]
+}

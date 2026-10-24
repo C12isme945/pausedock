@@ -1,0 +1,21 @@
+[
+ {"name":"garden_development_example","notes":[
+  {"text":"Finished comparing the two watering schedules.","expected":"done"},
+  {"text":"The weekend plan uses the smaller pot.","expected":"context"},
+  {"text":"Still need to check whether the balcony gets four hours of sun.","expected":"next"},
+  {"text":"Waiting for the soil mix to arrive on Tuesday.","expected":"waiting"},
+  {"text":"The seed tray measurements are already written down.","expected":"done"},
+  {"text":"Next: sketch where the three pots will fit.","expected":"next"}]},
+ {"name":"negation_and_dependencies","notes":[
+  {"text":"The invitation draft is done.","expected":"done"},
+  {"text":"Not done: check the spelling on the place cards.","expected":"next"},
+  {"text":"Cannot finalise the head count until the guests reply.","expected":"waiting"},
+  {"text":"We chose blue envelopes for this version.","expected":"context"},
+  {"text":"Need to compare the two stamp prices.","expected":"next"},
+  {"text":"Already printed the sample invitation.","expected":"done"}]},
+ {"name":"no_invented_work","notes":[
+  {"text":"Finished assembling all four gift boxes.","expected":"done"},
+  {"text":"The blue ribbon is the one we used.","expected":"context"},
+  {"text":"Waiting for the courier to collect the boxes tomorrow.","expected":"waiting"},
+  {"text":"The address labels have all been checked.","expected":"done"}]}
+]

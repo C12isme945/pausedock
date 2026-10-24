@@ -1,0 +1,11 @@
+{
+  "python": "3.14.4",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "model": "qwen2.5:7b",
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "quantisation": "Q4_K_M",
+  "tests": 15,
+  "tests_passed": 15,
+  "model_data": "Synthetic notes only",
+  "application_dependencies": "Python standard library only"
+}
