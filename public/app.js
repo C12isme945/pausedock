@@ -7,11 +7,11 @@ Waiting for the soil mix to arrive on Tuesday.
 The seed tray measurements are already written down.
 Next: sketch where the three pots will fit.`;
 const categories={next:'Still to do',waiting:'Can wait',done:'Already done',context:'Keep in mind'};
-let card=null,busy=false,unsaved=false;
+let card=null,busy=false;
 const storeKey='pausedock.saved.v1';
 function status(text,error=false){$('status').textContent=text;$('status').classList.toggle('error',error);}
 function count(){const n=$('notes').value.split('\n').filter(x=>x.trim()).length;$('count').textContent=`${n} notes`;}
-function loadSample(){if(busy)return;$('notes').value=sample;$('title').value='Balcony garden plan';count();}
+function loadSample(){if(busy)return;$('notes').value=sample;$('title').value='Balcony garden plan';count();resetCard();status('Sample notes loaded. Nothing is saved automatically.');}
 function resetCard(){card=null;$('card').hidden=true;$('empty').hidden=false;}
 function setRestart(){const note=card.notes.find(n=>n.id===card.restart_id);$('restart-text').textContent=note?note.text:'No unfinished step found. You can put this down.';$('restart-source').textContent=note?`Original note ${note.id}`:'No new task invented';}
 function render(){
