@@ -69,3 +69,11 @@ Original application code: MIT, copyright 2026 Yansong Li. No model weights are 
 - [Structured outputs documentation](https://docs.ollama.com/capabilities/structured-outputs).
 
 No partner prize category is claimed. This project uses neither Gemma nor a paid cloud service. The frontend uses system fonts and original CSS artwork, with no third-party imagery, music or UI template.
+
+## AI assistance and other submissions
+
+OpenAI Codex generated and revised the application code, tests, documentation, submission prose and captioned demonstration with user authorization. Qwen2.5 7B provides the actual local runtime classification. No claim is made that the participant personally wrote every line or attended any workshop.
+
+The same prototype was published for Hacktoberfest Week 3 on 24 October 2026 and is also being prepared for the STEM2Connect Community Impact track. Its reuse and original creation date are disclosed. STEM2Connect submission and Demo Day delivery are not yet confirmed.
+
+[Watch the 70-second working demo](https://youtu.be/yNdE7JjBlcs). This is a captioned sequence of actual app screenshots edited for length, not a continuous real-time capture. Earlier references to 63 seconds were an incorrect duration estimate; the encoded file is 70 seconds. All notes shown are invented.
