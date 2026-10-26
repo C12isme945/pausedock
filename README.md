@@ -74,6 +74,6 @@ No partner prize category is claimed. This project uses neither Gemma nor a paid
 
 OpenAI Codex generated and revised the application code, tests, documentation, submission prose and captioned demonstration with user authorization. Qwen2.5 7B provides the actual local runtime classification. No claim is made that the participant personally wrote every line or attended any workshop.
 
-The same prototype was published for Hacktoberfest Week 3 on 24 October 2026 and is also being prepared for the STEM2Connect Community Impact track. Its reuse and original creation date are disclosed. STEM2Connect submission and Demo Day delivery are not yet confirmed.
+The same prototype was published for Hacktoberfest Week 3 on 24 October 2026 and was submitted to the STEM2Connect Community Impact track on 26 October 2026. Its reuse and original creation date are disclosed. [Submitted Devpost project](https://devpost.com/software/pausedock). [Prepared 2:26 prerecorded presentation](https://youtu.be/mEk35AFqfAE) is provided with the submission; organizer Demo Day delivery instructions and acceptance remain pending.
 
 [Watch the 70-second working demo](https://youtu.be/yNdE7JjBlcs). This is a captioned sequence of actual app screenshots edited for length, not a continuous real-time capture. Earlier references to 63 seconds were an incorrect duration estimate; the encoded file is 70 seconds. All notes shown are invented.
